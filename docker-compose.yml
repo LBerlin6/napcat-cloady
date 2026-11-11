@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  napcat:
+    build: .
+    ports:
+      - "6099:6099"
+    environment:
+      - WEBUI_TOKEN=Lbl716619 # 自定义
